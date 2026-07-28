@@ -1,5 +1,5 @@
 {
-  "description": "打开记事本并输入Hello World",
+  "description": "Long text input demo (text over 30 chars must be split into segments, pause 1000ms after each)",
   "events": [
     [
       "keyboard",
@@ -53,11 +53,27 @@
     ],
     [
       "text",
-      "Hello World!"
+      "This is a long text demonstration"
     ],
     [
       "delay",
-      500
+      1000
+    ],
+    [
+      "text",
+      " showing how to split text into"
+    ],
+    [
+      "delay",
+      1000
+    ],
+    [
+      "text",
+      " multiple chunks with delays."
+    ],
+    [
+      "delay",
+      1000
     ]
   ]
 }

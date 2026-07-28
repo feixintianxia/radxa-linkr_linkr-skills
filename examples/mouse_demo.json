@@ -1,5 +1,5 @@
 {
-  "description": "鼠标移动、点击和滚轮演示",
+  "description": "Mouse movement, click and scroll demo",
   "events": [
     [
       "mouse_abs",

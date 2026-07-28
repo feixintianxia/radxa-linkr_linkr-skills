@@ -1,5 +1,5 @@
 {
-  "description": "长文本输入演示（超过30字符需分段，每段后暂停1000ms）",
+  "description": "Open Chrome browser and visit Baidu",
   "events": [
     [
       "keyboard",
@@ -31,7 +31,7 @@
     ],
     [
       "text",
-      "notepad"
+      "chrome"
     ],
     [
       "delay",
@@ -49,31 +49,37 @@
     ],
     [
       "delay",
-      1000
+      3000
+    ],
+    [
+      "mouse_abs",
+      0,
+      0.5,
+      0.08,
+      0,
+      0
+    ],
+    [
+      "delay",
+      200
     ],
     [
       "text",
-      "This is a long text demonstration"
+      "baidu.com"
     ],
     [
       "delay",
       1000
     ],
     [
-      "text",
-      " showing how to split text into"
+      "keyboard",
+      "Enter",
+      true
     ],
     [
-      "delay",
-      1000
-    ],
-    [
-      "text",
-      " multiple chunks with delays."
-    ],
-    [
-      "delay",
-      1000
+      "keyboard",
+      "Enter",
+      false
     ]
   ]
 }

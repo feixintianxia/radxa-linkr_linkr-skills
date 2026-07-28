@@ -1,5 +1,5 @@
 ---
-name: ipkvm
+name: linkr-skills
 description: >
   A universal skill for the standardized Linkr control interface, providing
   screen capture and mouse/keyboard automation via HTTP API.

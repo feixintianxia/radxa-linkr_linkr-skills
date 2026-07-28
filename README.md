@@ -95,7 +95,7 @@ curl -X POST "http://${Linkr_IP}:80/api/public/control" \
 ## Directory Structure
 
 ```
-linkr/
+linkr-skills/
 ├── SKILL.md                     # Main skill document (OpenClaw spec)
 ├── README.md                    # This file
 ├── README.zh-cn.md              # Chinese README
@@ -152,7 +152,7 @@ client.text("This is a long text that will be automatically split into chunks...
 
 ```bash
 # Copy to OpenClaw skills directory
-cp -r ipkvm ~/.openclaw/skills/
+cp -r linkr-skills ~/.openclaw/skills/
 
 # Verify installation
 openclaw skills list
@@ -162,7 +162,3 @@ openclaw skills list
 
 - `curl`: for HTTP requests
 - `python3` + `requests`: for Python client (optional)
-
-## License
-
-MIT License

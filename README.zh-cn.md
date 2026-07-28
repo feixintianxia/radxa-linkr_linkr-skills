@@ -90,7 +90,7 @@ curl -X POST "http://${Linkr_IP}:80/api/public/control"   -H "Content-Type: appl
 ## 文档结构
 
 ```
-linkr/
+linkr-skills/
 ├── SKILL.md                    # 主技能文档（OpenClaw规范）
 ├── README.md                   # 本文件
 ├── scripts/
@@ -144,7 +144,7 @@ client.text("This is a long text that will be automatically split into chunks...
 
 ```bash
 # 复制到 OpenClaw skills 目录
-cp -r ipkvm ~/.openclaw/skills/
+cp -r linkr-skills ~/.openclaw/skills/
 
 # 验证安装
 openclaw skills list
@@ -154,7 +154,3 @@ openclaw skills list
 
 - `curl`: 用于HTTP请求
 - `python3` + `requests`: 用于Python客户端（可选）
-
-## 许可证
-
-MIT License
